@@ -53,7 +53,9 @@ main .first-box::before {
 	bottom: 0;
 	left: 0;
 	right: 0;
-    background-color: rgba(170,92,219,0.4);
+    background-color: rgba(170,92,219);
+    mix-blend-mode: multiply;
+    opacity: 0.75;
 }
 
 main .second-box {
